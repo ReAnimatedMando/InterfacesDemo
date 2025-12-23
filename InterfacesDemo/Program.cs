@@ -1,3 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using InterfacesDemo;
 
-Console.WriteLine("Hello, World!");
+var ipod = new AudioPlayer();
+
+ipod.Play();
+ipod.Stop();

@@ -4,6 +4,8 @@ public class Dog : IAnimal, IDog
 {
     public int Age { get; set; }
     public string Diet { get; set; }
+    public string Owner { get; set; }
+    public string Breed { get; set; }
     
     public void Move()
     {
@@ -15,6 +17,5 @@ public class Dog : IAnimal, IDog
         Console.WriteLine("Dog is breathing!");
     }
 
-    public string Owner { get; set; }
-    public string Breed { get; set; }
+    
 }
